@@ -5,11 +5,12 @@
 *.pt
 *.pth
 *.onnx
-models/*.pt
 
-# Data folders
-data/raw/
-data/processed/
+# Ignore data files but keep folder structure
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
 # MLflow
 mlruns/
