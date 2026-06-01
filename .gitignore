@@ -19,3 +19,15 @@ mlartifacts/
 # Virtual environment
 .venv/
 venv/
+
+# Python cache — never commit these
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code
+.vscode/
