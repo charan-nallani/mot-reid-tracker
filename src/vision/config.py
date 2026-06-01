@@ -5,7 +5,7 @@ Never hardcode values directly in logic files.
 """
 
 # ── Model Settings ──────────────────────────────────────────
-DEFAULT_MODEL_PATH = "yolov8n.pt"
+DEFAULT_MODEL_PATH = "models/yolo11n.pt"
 DEFAULT_CONFIDENCE = 0.5
 DEFAULT_IOU_THRESHOLD = 0.45
 DEFAULT_IMAGE_SIZE = 640
